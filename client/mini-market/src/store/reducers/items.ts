@@ -3,10 +3,12 @@ import { Action } from "../actions";
 
 export interface ItemsState {
   items: Item[];
+  categories: { [key: number]: string };
 }
 
 const initialState = {
   items: [],
+  categories: {},
 };
 
 export const ItemsReducer = (
@@ -16,6 +18,9 @@ export const ItemsReducer = (
   switch (action.type) {
     case "DISPLAY_ITEMS": {
       return { ...state, items: action.payload };
+    }
+    case "UPDATE_CATEGORIES": {
+      return { ...state, categories: action.payload };
     }
     default:
       return state;
