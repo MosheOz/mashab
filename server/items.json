@@ -1,0 +1,29 @@
+{
+    "items": [
+        {
+            "id": 1,
+            "name": "אקונומיקה",
+            "category": 1
+        },
+        {
+            "id": 2,
+            "name": "תנובה",
+            "category": 2
+        },
+        {
+            "id": 3,
+            "name": "קוקה קולה",
+            "category": 3
+        },
+        {
+            "id": 4,
+            "name": "גמבה",
+            "category": 4
+        },
+        {
+            "id": 5,
+            "name": "תפוז",
+            "category": 5
+        }
+    ]
+}
