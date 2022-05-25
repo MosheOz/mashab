@@ -1,5 +1,5 @@
 # mashab
-1. run cd server
-2. run npm start
-3. run cd client/mini-market
-4. run npm start
+1. From root folder run cd server
+2. Then run npm start
+3. From root folder run cd client/mini-market
+4. Then run npm start
